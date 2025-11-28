@@ -45,69 +45,22 @@ export default function Footer() {
             fontWeight="500"
             color={textColor}
             target="_blank"
-            href="https://prolinkinfotech.com/"
+            href="#"
           >
             {" "}
-            Prolink Infotech.
+            EstateFlow.
           </Link>{" "}
-          Need help, facing issues, or looking for a new feature? Contact us for
-          paid support and services at{" "}
+          Need help, facing issues, or looking for a new feature? Contact us at{" "}
           <Link
-            href="mailto:alternatecrm@gmail.com"
+            href="mailto:mourya.psv@gmail.com"
             fontWeight="500"
             color={textColor}
             target="_blank"
           >
-            alternatecrm@gmail.com
+            mourya.psv@gmail.com
           </Link>
         </Text>
       </Text>
-      {/* <List display='flex'>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-          <Link
-            fontWeight='500'
-            color={linkColor}
-            href='mailto:hello@simmmple.com?ref=horizon-chakra-free'>
-            Support
-          </Link>
-        </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-          <Link
-            fontWeight='500'
-            color={linkColor}
-            href='https://www.simmmple.com/licenses?ref=horizon-chakra-free'>
-            License
-          </Link>
-        </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-          <Link
-            fontWeight='500'
-            color={linkColor}
-            href='https://simmmple.com/terms-of-service?ref=horizon-chakra-free'>
-            Terms of Use
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link
-            fontWeight='500'
-            color={linkColor}
-            href='https://www.blog.simmmple.com/?ref=horizon-chakra-free'>
-            Blog
-          </Link>
-        </ListItem>
-      </List> */}
     </Flex>
   );
 }

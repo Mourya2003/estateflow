@@ -43,7 +43,7 @@ function AuthIllustration(props) {
           right="0px"
         >
           <Link
-            to="https://prolinkinfotech.com/"
+            to="#"
             target="_blank"
             style={{ height: "50%", width: "50%" }}
           >
@@ -57,26 +57,11 @@ function AuthIllustration(props) {
               bgPosition="50%"
             />
           </Link>
-          {/* <Box
-            border={'1px solid'}
-            p={4}
-            borderRadius={10}
-          >
-            Hi
-          </Box> */}
         </Box>
         <Footer />
       </Flex>
-      {/* CHANGE THEME COLOR BUTTON LIGHT-DARK */}
-      {/* <FixedPlugin /> */}
     </Flex>
   );
 }
-// PROPS
-
-// AuthIllustration.propTypes = {
-//   illustrationBackground: PropTypes.string,
-//   image: PropTypes.any,
-// };
 
 export default AuthIllustration;

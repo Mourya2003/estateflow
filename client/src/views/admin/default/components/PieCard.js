@@ -18,7 +18,15 @@ export default function Conversion(props) {
     "unset",
   );
   return (
-    <Card p="20px" align="center" direction="column" w="100%" {...rest}>
+    <Card 
+      p="20px" 
+      align="center" 
+      direction="column" 
+      w="100%" 
+      {...rest} 
+      overflow='visible' 
+      zIndex='10'
+    >
       <Flex
         px={{ base: "0px", "2xl": "10px" }}
         justifyContent="space-between"
@@ -27,7 +35,7 @@ export default function Conversion(props) {
         mb="8px"
       >
         <Text color={textColor} fontSize="md" fontWeight="600" mt="4px">
-          Your Pie Chart
+          Lead Statistics
         </Text>
         <Select
           fontSize="sm"
@@ -67,7 +75,7 @@ export default function Conversion(props) {
               fontWeight="700"
               mb="5px"
             >
-              Your files
+              Total Leads
             </Text>
           </Flex>
           <Text fontSize="lg" color={textColor} fontWeight="700">
@@ -84,7 +92,7 @@ export default function Conversion(props) {
               fontWeight="700"
               mb="5px"
             >
-              System
+              Active
             </Text>
           </Flex>
           <Text fontSize="lg" color={textColor} fontWeight="700">

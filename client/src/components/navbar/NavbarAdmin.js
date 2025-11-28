@@ -120,29 +120,6 @@ export default function AdminNavbar(props) {
           display={"flex"}
           alignItems={"center"}
         >
-          {/*
-					<Breadcrumb>
-						<BreadcrumbItem color={secondaryText} fontSize='sm' mb='5px'>
-							<BreadcrumbLink as={rrd.Link} to='/admin/default' color={secondaryText}>
-								<AiTwotoneHome />
-							</BreadcrumbLink>
-						</BreadcrumbItem>
-
-						{under?.under && <BreadcrumbItem color={secondaryText} fontSize='sm' mb='5px'>
-							<BreadcrumbLink as={rrd.Link} to={`${under.both === true ? '' : under.layout + '/'}${under.under}`} color={secondaryText}>
-								{under.parentName}
-							</BreadcrumbLink>
-						</BreadcrumbItem>}
-
-
-						<BreadcrumbItem color={secondaryText} fontSize='sm' mb='5px'>
-							<BreadcrumbLink as={rrd.Link} to='#' color={secondaryText}>
-								{brandText}
-							</BreadcrumbLink>
-						</BreadcrumbItem>
-
-					</Breadcrumb>
-					*/}
           <Flex
             me={openSidebar ? "" : "5"}
             mx={openSidebar ? "14" : "1"}
@@ -179,7 +156,7 @@ export default function AdminNavbar(props) {
                 onClick={() => !props?.from && setOpenSidebar(!openSidebar)}
                 userSelect={"none"}
               >
-                {openSidebar === true ? "Prolink" : "Pr"}
+                {openSidebar === true ? "EstateFlow" : "EF"}
               </Heading>
             )}
           </Flex>
@@ -203,7 +180,7 @@ export default function AdminNavbar(props) {
               />
             ) : (
               <Heading my={4} cursor={"pointer"} userSelect={"none"}>
-                {openSidebar === true ? "Prolink" : "Pr"}
+                {openSidebar === true ? "EstateFlow" : "EF"}
               </Heading>
             )}
           </Link>
