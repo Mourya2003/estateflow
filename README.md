@@ -1,46 +1,55 @@
 ```markdown
-# 🏠 RealEstateCRM — My Placement Project | Built with MERN Stack
+# 🏡 EstateFlow — Real Estate CRM | Personal MERN Project for Placement
 
-This is my personal project — **RealEstateCRM**, a modern CRM system tailored for Real Estate Agents, built as part of my software development learning and preparation for tech placements.
+**EstateFlow** is a Real Estate Customer Relationship Management (CRM) system that I built to practice and demonstrate my full-stack development skills. It is designed to help real estate agents organize their workflow, manage client details, and streamline communication — all from a clean, responsive interface.
 
-It helps streamline agent workflows, improve customer interaction, and manage real estate deals efficiently. This project reflects my skills in full-stack web development using the **MERN stack (MongoDB, Express, React, Node.js)**.
-
----
-
-## 🚀 Features
-
-- **Clean & Intuitive Dashboard** – Designed for ease of use by real estate professionals  
-- **Powerful Backend** – Node.js and Express with MongoDB for data storage  
-- **Fully Responsive Frontend** – React-based UI that works across devices  
-- **User Authentication** – Secure login system with role-based access  
-- **Communication Tools** – Integrated tools to enhance client interaction
+This project was created as part of my placement preparation and showcases my ability to build complete web applications using the **MERN stack (MongoDB, Express.js, React, Node.js)**.
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Key Highlights
 
-To run it locally:
+- 🔹 **Modern UI** – Built with React for a smooth and responsive experience  
+- 🔹 **Backend API** – Node.js and Express handle authentication and data routes  
+- 🔹 **MongoDB Integration** – Stores all agent, property, and lead data securely  
+- 🔹 **Authentication System** – Includes protected routes and role-based access  
+- 🔹 **Fully Responsive** – Works on desktop, tablet, and mobile screens
+
+---
+
+## ⚙️ Setup Instructions
+
+To run the project locally on your machine:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RealEstateCRM.git
-cd RealEstateCRM
+git clone https://github.com/YOUR_USERNAME/estateflow.git
+cd estateflow
 npm install && cd client && npm install
 ```
 
-Then, from the root directory:
+Now, return to the root directory and start the full-stack server:
 
 ```bash
 npm run dev
 ```
 
-This will start both the backend and frontend using `concurrently`.
+The backend and frontend will start together using `concurrently`.
 
-## 📧 Contact
+---
 
-Feel free to reach out for collaboration, placement opportunities, or feedback:
+## 🧠 Tech Stack
 
-**Email:** mourya.psv@gmail.com
+- **Frontend**: React, React Router, Tailwind CSS  
+- **Backend**: Node.js, Express  
+- **Database**: MongoDB  
+- **Tools**: Git, Visual Studio Code, Postman, Vercel (for optional future hosting)
 
-```
+---
 
-```
+## 📫 Contact Me
+
+If you're interested in my work, want to collaborate, or have placement-related opportunities, feel free to connect:
+
+**Email**: mourya.psv@gmail.com  
+
+---
